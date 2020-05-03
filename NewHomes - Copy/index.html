@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <link rel="stylesheet" href="style.css">
+    <title>NewHomes</title>
+</head>
+<body style="background-color: #444444;">
+    
+    <!-- NAVIGACIJA -->
+
+    <nav id="main-nav" class="navbar navbar-dark bg-dark sticky-top">
+        <nav class="container navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"><i class="fa fa-home mr-1"></i>NewHomes</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#aboutus">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#advertising">Advertising</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#sorted">Sorted searching</a>
+                </li>
+              </ul>
+              <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+      </nav>
+    
+
+        <!-- CAROUSEL -->
+      <div id="home" class="container pb-5">
+          <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item carou active">
+                <img class="d-block w-100 img-fluid" src="https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="First slide">
+              </div>
+              <div class="carousel-item carou">
+                <img class="d-block w-100 img-fluid" src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?cs=srgb&dl=home-real-estate-106399.jpg&fm=jpg" alt="Second slide">
+              </div>
+              <div class="carousel-item carou">
+                <img class="d-block w-100 img-fluid" src="https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Third slide">
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+
+
+        <!-- ABOUT US -->
+
+        <div id="aboutus" class="bg-light pt-5 pb-5">
+            <div class="container">
+                <h2 class="text-dark">About Us</h2>
+                <h5 class="text-muted">Rules</h4>
+                <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores recusandae, facere quia beatae dolorem blanditiis?
+                     Debitis suscipit repudiandae aliquam numquam aspernatur hic rem consectetur odio similique vero dolorem dolore animi
+                      ipsam labore non error harum autem, corrupti cum explicabo a delectus. Nemo, tempore atque necessitatibus architecto 
+                      quibusdam modi commodi illum maxime voluptas deleniti ut aspernatur praesentium ratione delectus culpa, quisquam mollitia.
+                       Repellat pariatur qui sit perferendis quisquam deserunt, sequi reprehenderit voluptates quam ea molestiae odio incidunt perspiciatis
+                        rem numquam eius. Modi, expedita omnis? Pariatur unde rem fugit reprehenderit quisquam sunt optio dicta expedita voluptas
+                         enim. Atque earum perspiciatis minus deserunt.</p>
+
+                         <div class="container">
+                          <div class="card-deck">
+                            <div class="card">
+                              <img src="https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?cs=srgb&dl=home-real-estate-106399.jpg&fm=jpg" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <img src="https://images.pexels.com/photos/259588/pexels-photo-259588.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                            </div>
+                            <div class="card">
+                              <img src="https://images.pexels.com/photos/280229/pexels-photo-280229.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="card-img-top" alt="...">
+                              <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                  
+            </div>
+        </div>
+
+
+
+
+        <!-- ADVERTISING -->
+
+
+<div id="advertising" class="">
+<div class="container pt-5 pb-5">
+<h2 class="text-white">Advertising</h2>
+<p class="mt-2 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur dolore aliquam quod. Molestias 
+  accusamus, dolores hic ex sunt iure atque excepturi unde laudantium recusandae nihil rem quibusdam ab, debitis ea 
+  voluptates! Earum possimus eum explicabo at. Blanditiis, esse. Accusantium iste provident dolorum necessitatibus 
+  veritatis neque perferendis. Saepe, consequuntur ratione possimus non quae ut dolore illo dolor labore neque 
+  perferendis placeat rerum hic iste commodi quisquam unde quam soluta earum. Ducimus totam repudiandae molestias 
+  quisquam nesciunt dolore et, ab facilis sed cupiditate deserunt quidem rerum tempora odio, recusandae nisi sint 
+  delectus quod unde debitis alias? Facere consequatur voluptas id culpa quisquam!</p>
+
+  <p class="mt-2 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut eos laboriosam deserunt omnis 
+    aspernatur suscipit quam tempore, ullam deleniti quas. Porro beatae labore architecto, quidem illo facilis hic dicta 
+    eligendi doloribus neque nulla illum fugiat, fuga omnis culpa, saepe molestias suscipit. Ipsum, velit molestiae soluta 
+    sed eligendi possimus quisquam omnis illo exercitationem enim magnam, esse ea itaque quas quis sit rerum minima 
+    nesciunt corporis hic qui nostrum! Rerum voluptatum beatae id totam? Explicabo cupiditate non reprehenderit, 
+    commodi veritatis ullam! Exercitationem esse vitae unde sit explicabo nesciunt qui vero perferendis odio, neque harum 
+    repellat nostrum accusamus, dolores excepturi ad nobis voluptate earum provident quibusdam sed? Rerum eius quisquam, 
+    harum nihil itaque voluptatem. Magnam molestias provident distinctio molestiae ratione ipsum ad illo optio! Iste 
+    maxime enim mollitia numquam eius tenetur sunt consectetur facilis qui soluta quisquam obcaecati quam aperiam nobis 
+    ratione ut corrupti atque minus odio, veniam eos quidem. Consectetur, mollitia, debitis fuga quidem accusantium minus 
+    voluptate commodi aliquid, vitae eaque ratione nemo sunt aliquam corporis. Rem voluptatibus dolor ex, libero, 
+    voluptatem et laboriosam quasi esse accusamus fugit architecto vel ipsum? Veritatis commodi maxime suscipit? Odio 
+    quia vel ullam temporibus, unde libero id itaque, praesentium doloremque, animi quisquam corporis facilis. Quam, 
+    voluptas.</p>
+
+    <p class="mt-2 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore quaerat omnis sequi. 
+      Nostrum vero quasi cupiditate consectetur id a aut facilis eum! Quam blanditiis aperiam delectus fuga totam 
+      veritatis iusto harum odit nam impedit, nostrum itaque praesentium voluptas cumque eius earum ab tempora fugit ut! 
+      Autem exercitationem ad quas illum.</p>
+
+
+  <div class="container pt-3 pb-3">
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
+Advertise your apartment
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog" role="document">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title font-weight-bold" id="exampleModalLabel">Огласи го твојот апартман</h5>
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div style="height:470px; overflow:scroll" class="modal-body">
+      
+      <form>
+        <h5 class="text-success">Контакт</h5>
+        <div class="row">
+          <div class="col-6">
+      <div class="form-group">
+        <label for="name">Име</label>
+        <input type="text" id="ime" class="form-control" placeholder="Внесете го вашето име">
+      </div>
+    </div>
+
+    <div class="col-6">
+      <div class="form-group">
+        <label>Контакт телефон</label>
+        <input type="text" id="telefon" class="form-control" placeholder="Внесете мобилен телефон">
+      </div>
+    </div>
+  </div>
+  <hr>
+<h5 class="text-success">Каде се наоѓа?</h5>
+  <div class="row mt-2">
+    <div class="col-4">
+      <div class="form-group">
+        <label>Град</label>
+        <input type="text" id="grad" class="form-control" placeholder="Внесете град">
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="form-group">
+        <label>Населба</label>
+        <input type="text" id="naselba" class="form-control" placeholder="Внесете населба">
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="form-group">
+        <label>Адреса</label>
+        <input type="text" id="adresa" class="form-control" placeholder="Внесете адреса">
+      </div>
+    </div>
+    </div>
+<hr>
+<h5 class="text-success">Дополнителни информации</h5>
+<div class="row mt-2">
+<div class="col-4">
+  <div class="form-group">
+    <label>Број на соби</label>
+    <input type="text" id="br_sobi" class="form-control" placeholder="Внесете број на соби">
+  </div>
+</div>
+<div class="col-4">
+  <div class="form-group">
+    <label>Греење</label>
+    <input type="text" id="greenje" class="form-control" placeholder="Внесете начин на греење">
+  </div>
+</div>
+<div class="col-4">
+  <div class="form-group">
+    <label>Балкон</label>
+    <br>
+    <div class="mt-2">
+    <input type="radio" id="balkon_ima" name="balkon">Има
+    <input type="radio" id="balkon_nema" name="balkon">Нема
+  </div>
+  </div>
+</div>
+</div>
+<hr>
+
+<h5 class="text-success">Цена</h5>
+      <div class="form-group">
+        <label>Цена за кирија</label>
+        <div class="row">
+        <div class="col-9">
+        <input type="number" class="form-control" placeholder="Внесете кирија">
+      </div>
+      <div class="col-3">
+        <select class="form-control">
+          <option>--</option>
+          <option>€</option>
+          <option>ден.</option>
+        </select>
+      </div>
+    </div>
+      </div>
+<hr>
+
+<div class="row">
+<div class="col-6 mt-4">
+      <div class="form-group">
+        <h5 class="text-success">Додај слики</h5>
+        <label for="file"></label>
+        <input type="file">
+      </div>
+    </div>
+    <div class="col-6 map">
+      
+      </div>
+</div>
+    </form>
+
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-dismiss="modal">Затвори</button>
+      <button type="button" class="btn btn-success">Објави го огласот</button>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- SORTED SEARCHING -->
+
+<div id="sorted" class="bg-light text-dark pt-5 pb-5">
+  <div class="container">
+    <h2>Sorted Searching</h2>
+    <p class="text-dark pt-3 pb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur temporibus 
+      laudantium architecto alias, nisi aliquam quisquam eveniet, voluptates odio minus est, non sapiente iusto 
+      voluptatem officia tenetur reprehenderit at numquam iure esse repudiandae odit corrupti. Distinctio neque 
+      incidunt cumque hic eaque ipsum asperiores doloribus natus officia mollitia sequi qui repellendus expedita et 
+      autem ad quasi, veritatis dicta assumenda soluta quos saepe quisquam. Quos exercitationem tempora, eaque cupiditate 
+      debitis facilis tenetur officia fugiat et temporibus aut eum asperiores rem vitae consequatur nulla quis ex deleniti 
+      assumenda voluptatum dolores perspiciatis. Voluptates ea nam corrupti eligendi laboriosam repudiandae tempore incidunt 
+      possimus, eum debitis!</p>
+      
+      
+<div class="row">
+<div class="col-4" id="opcija1">
+  <div class="dropdown show">
+    <a class="btn btn-success dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Сортирај според
+    </a>
+        <div class="dropdown-menu" id="izbor" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" id="cena" value="cena">Цена</a>
+          <a class="dropdown-item" href="#" value="sobi">Број на соби</a>
+          <a class="dropdown-item" href="#" value="greenje">Греење</a>
+          <a class="dropdown-item" href="#" value="grad">Град</a>
+        </div>
+      </div>
+
+
+
+</div>
+<div class="col-4" id="opcija2"></div>
+<div class="col-4" id="opcija3"></div>
+      </div>
+<hr>
+      <div class="container pt-5 pb-5">
+        <div style="height:200px;" class="bg-dark rounded">
+        <h6 class="text-light d-flex justify-content-center py-5">Тука би била сортираната листа</h6>
+        </div>
+      </div>
+
+      </div>
+  </div>
+
+
+<!-- FOOTER -->
+
+<footer>
+  <div class="bg-dark">
+    <div class="container">
+      <div class="d-flex justify-content-center py-4">
+      <h6 class="text-light">Copyrights 2020, June &copy;</h6>
+    </div>
+    </div>
+  </div>
+
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="http://code.jquery.com/jquery-3.5.0.min.js"
+    integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" 
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" 
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" 
+    crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+    <script>
+$(".carousel").carousel({interval: 5000,
+    wrap: true
+});
+    
+    </script>
+</body>
+</html>
